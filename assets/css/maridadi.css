@@ -1,0 +1,15 @@
+.cars{
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.fruits{
+    margin: 15px;
+    padding: 15px;
+    background-color: orange;
+}
+#wanafunzi{
+    text-align: center;
+    background-color: chartreuse;
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2>Java Students Registration Form</h2>
+<form action="">
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter your First Name" required maxlength="4"><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob"><br><br>
+
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass"><br><br>
+
+    <label for="upload">Upload profile pic(.png, .jpeg)</label>
+    <input type="file" id="upload" required><br><br>
+
+    <label for="fmale">Female</label>
+    <input type="radio" name="gender" id="fmale">
+
+    <label for="mal">Male</label>
+    <input type="radio" name="gender" id="mal">
+
+    <label for="cus">Custom</label>
+    <input type="radio" name="gender" id="cus"><br><br>
+
+    <label for="course">Course Selected</label>
+    <select name="course" id="course" required>
+        <option value="js">JavaScript</option>
+        <option value="ds">DataScience</option>
+        <option value="cs">CyberSecurity</option>
+        <option value="ml">Machine Learning</option>
+        <option value="rb">Robotics</option>
+        <option value="dj">Django</option>
+        <option value="sp">Springboot</option>
+        <option value="oths">Others</option>
+    </select><br><br>
+
+    <input type="submit" value="Register Here!">
+</form>
+</body>
+</html>
